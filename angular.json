@@ -56,7 +56,7 @@
                 }
               ],
               "outputHashing": "all",
-              "baseHref": "/your-repo-name/"
+              "baseHref": "/angular-daily-todo-app/"
             },
             "development": {
               "optimization": false,
