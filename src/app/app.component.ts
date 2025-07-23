@@ -1,4 +1,5 @@
-import { Component, signal } from '@angular/core';
+import { Component, signal, OnInit } from '@angular/core';
+import { Meta, Title } from '@angular/platform-browser';
 // import { RouterOutlet } from '@angular/router';
 import { TodoListComponent } from './todo-list.component';
 import { NgIf, NgClass } from '@angular/common';  
@@ -30,8 +31,10 @@ import { NgIf, NgClass } from '@angular/common';
   `,
   styleUrl: './app.component.scss'
 })
-export class AppComponent {
+export class AppComponent implements OnInit {
   theme = signal(this.getInitialTheme());
+
+  constructor(private meta: Meta, private title: Title) {}
 
   getInitialTheme(): 'light' | 'dark' {
     if (typeof window !== 'undefined') {
@@ -45,6 +48,20 @@ export class AppComponent {
 
   ngOnInit() {
     this.applyThemeClass();
+    this.setSeoMeta();
+  }
+
+  setSeoMeta() {
+    this.title.setTitle('Daily Todo List');
+    this.meta.addTags([
+      { name: 'description', content: 'Organize your day with nested todos and a beautiful, focused interface. This app is brought to you by Wonqy Media.' },
+      { name: 'author', content: 'Wonqy Media' },
+      { name: 'keywords', content: 'todo, daily, productivity, wonqy media, angular, task list' },
+      { property: 'og:title', content: 'Daily Todo List' },
+      { property: 'og:description', content: 'Organize your day with nested todos and a beautiful, focused interface. This app is brought to you by Wonqy Media.' },
+      { property: 'og:type', content: 'website' },
+      { property: 'og:site_name', content: 'Daily Todo List' }
+    ]);
   }
 
   applyThemeClass() {
