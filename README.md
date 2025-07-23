@@ -1,20 +1,24 @@
 # Daily Todo List App
 
-A beautiful, modern todo list application built with Angular 19, featuring nested todos, drag-and-drop functionality, and a responsive design with dark mode support.
+[**🌐 Live Demo**](https://gaurangzalariya.github.io/angular-daily-todo-app/)
+
+A beautiful, modern todo list application built with Angular 19, featuring recursive nested todos, drag-and-drop for all levels, a responsive design, and a floating dark/light theme toggle.
 
 ## Features
 
-- ✨ **Nested Todos**: Create sub-todos for better organization
+- ✨ **Recursive Nested Todos**: Add sub-todos to any depth for powerful organization
 - 🎨 **Modern UI**: Beautiful, responsive design with Tailwind CSS
-- 🌙 **Dark Mode**: Automatic dark/light theme support
-- 📱 **Drag & Drop**: Reorder todos with intuitive drag-and-drop
-- 💾 **Local Storage**: Todos persist in browser cookies
+- 🌙 **Dark/Light Theme Toggle**: Instantly switch themes with a floating button; remembers your choice and supports system preference
+- 📱 **Drag & Drop (All Levels)**: Reorder todos and sub-todos with intuitive drag-and-drop
+- ✅ **Show/Hide Completed**: Toggle visibility of completed todos for a focused view
+- 🗓️ **Start New Day**: Clear all todos and start fresh with a single click
+- 💾 **Persistent State**: Todos and theme preference are saved in browser cookies/local storage
 - 🚀 **Fast**: Built with Angular 19 for optimal performance
-- ♿ **Accessible**: Full keyboard navigation and screen reader support
+- ♿ **Accessible**: Full keyboard navigation, ARIA labels, and screen reader support
 
 ## Live Demo
 
-Visit the live application: [Daily Todo List App](https://gaurangzalariya.github.io/angular-daily-todo-app/)
+Visit the live application: [https://gaurangzalariya.github.io/angular-daily-todo-app/](https://gaurangzalariya.github.io/angular-daily-todo-app/)
 
 ## Development
 
@@ -68,6 +72,10 @@ The app is automatically deployed to GitHub Pages via GitHub Actions. Simply pus
 2. Create a feature branch
 3. Make your changes
 4. Submit a pull request
+
+## Credits
+
+This project is brought to you by [**Wonqy Media**](https://wonqymedia.com), founded by [**Gaurang Zalariya**](https://linktr.ee/gaurangzalariya).
 
 ## License
 
