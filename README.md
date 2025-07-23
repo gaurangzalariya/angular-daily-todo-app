@@ -1,59 +1,78 @@
-# MyAngularApp
+# Daily Todo List App
 
-This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 19.2.15.
+A beautiful, modern todo list application built with Angular 19, featuring nested todos, drag-and-drop functionality, and a responsive design with dark mode support.
 
-## Development server
+## Features
 
-To start a local development server, run:
+- ✨ **Nested Todos**: Create sub-todos for better organization
+- 🎨 **Modern UI**: Beautiful, responsive design with Tailwind CSS
+- 🌙 **Dark Mode**: Automatic dark/light theme support
+- 📱 **Drag & Drop**: Reorder todos with intuitive drag-and-drop
+- 💾 **Local Storage**: Todos persist in browser cookies
+- 🚀 **Fast**: Built with Angular 19 for optimal performance
+- ♿ **Accessible**: Full keyboard navigation and screen reader support
 
+## Live Demo
+
+Visit the live application: [Daily Todo List App](https://gaurangzalariya.github.io/angular-daily-todo-app/)
+
+## Development
+
+### Prerequisites
+
+- Node.js 18+ 
+- npm or yarn
+
+### Setup
+
+1. Clone the repository:
 ```bash
-ng serve
+git clone https://github.com/your-username/my-angular-app.git
+cd my-angular-app
 ```
 
-Once the server is running, open your browser and navigate to `http://localhost:4200/`. The application will automatically reload whenever you modify any of the source files.
-
-## Code scaffolding
-
-Angular CLI includes powerful code scaffolding tools. To generate a new component, run:
-
+2. Install dependencies:
 ```bash
-ng generate component component-name
+npm install
 ```
 
-For a complete list of available schematics (such as `components`, `directives`, or `pipes`), run:
-
+3. Start the development server:
 ```bash
-ng generate --help
+npm start
 ```
 
-## Building
+4. Open your browser and navigate to `http://localhost:4200/`
 
-To build the project run:
-
-```bash
-ng build
-```
-
-This will compile your project and store the build artifacts in the `dist/` directory. By default, the production build optimizes your application for performance and speed.
-
-## Running unit tests
-
-To execute unit tests with the [Karma](https://karma-runner.github.io) test runner, use the following command:
+### Building for Production
 
 ```bash
-ng test
+npm run build
 ```
 
-## Running end-to-end tests
+The build artifacts will be stored in the `dist/my-angular-app/browser/` directory.
 
-For end-to-end (e2e) testing, run:
+### Deployment
 
-```bash
-ng e2e
-```
+The app is automatically deployed to GitHub Pages via GitHub Actions. Simply push to the main branch and the workflow will build and deploy your app.
 
-Angular CLI does not come with an end-to-end testing framework by default. You can choose one that suits your needs.
+## Technologies Used
 
-## Additional Resources
+- **Angular 19** - Frontend framework
+- **Tailwind CSS** - Styling
+- **Angular CDK** - Drag and drop functionality
+- **js-cookie** - Cookie management for todo persistence
 
-For more information on using the Angular CLI, including detailed command references, visit the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
+## Contributing
+
+1. Fork the repository
+2. Create a feature branch
+3. Make your changes
+4. Submit a pull request
+
+## License
+
+This project is open source and available under the [MIT License](LICENSE).
+
+---
+
+Made with ❤️ in 🇮🇳 India with [Angular](https://angular.io)

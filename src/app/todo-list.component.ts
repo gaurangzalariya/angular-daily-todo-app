@@ -170,7 +170,15 @@ export interface Todo {
           <div class="flex items-center justify-center gap-2 text-zinc-500 dark:text-zinc-500">
             <span class="text-lg">Made with love in</span>
             <span class="text-2xl">🇮🇳</span>
-            <span class="text-lg">India</span>
+            <span class="text-lg">India with</span>
+            <a href="https://angular.io" target="_blank" rel="noopener noreferrer" 
+               class="text-red-600 dark:text-red-400 hover:text-red-800 dark:hover:text-red-300 font-semibold transition-colors flex items-center gap-1">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="w-6 h-6">
+                <path d="M12 2L2 7v10l10 5 10-5V7L12 2zM12 4.236l7.5 3.764v7.5L12 19.236l-7.5-3.736v-7.5L12 4.236z"/>
+                <path d="M12 6.472L6 9.236v5.528L12 17.528l6-2.764V9.236L12 6.472z"/>
+              </svg>
+              Angular
+            </a>
           </div>
         </div>
       </footer>
