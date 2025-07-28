@@ -167,7 +167,7 @@ export interface Todo {
               Wonqy Media
             </a>
           </p>
-          <div class="flex items-center justify-center gap-1 md:gap-2 text-zinc-500 dark:text-zinc-500">
+          <div class="flex items-center justify-center gap-1 md:gap-2 text-zinc-600 dark:text-zinc-400">
             <span class="text-base md:text-lg">Made with love in India with</span>
             <a href="https://angular.io" target="_blank" rel="noopener noreferrer" 
                class="text-red-600 dark:text-red-400 hover:text-red-800 dark:hover:text-red-300 font-semibold transition-colors flex items-center gap-1">
