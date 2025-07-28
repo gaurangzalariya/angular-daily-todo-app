@@ -168,8 +168,7 @@ export interface Todo {
             </a>
           </p>
           <div class="flex items-center justify-center gap-1 md:gap-2 text-zinc-500 dark:text-zinc-500">
-            <span class="text-base md:text-lg">Made with love in</span>
-            <span class="text-base md:text-lg">India with</span>
+            <span class="text-base md:text-lg">Made with love in India with</span>
             <a href="https://angular.io" target="_blank" rel="noopener noreferrer" 
                class="text-red-600 dark:text-red-400 hover:text-red-800 dark:hover:text-red-300 font-semibold transition-colors flex items-center gap-1">
               <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="w-5 h-5 md:w-6 md:h-6">
